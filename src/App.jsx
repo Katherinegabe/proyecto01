@@ -1,9 +1,9 @@
 import phrases from "./data/phrases.json"
 import { getRandoNumber } from "./utils/getRandom"
 import FortunerPrhases from "./components/FortunerPrhases"
-import Button from "./components/button/button"
 import { useState } from "react"
- 
+import Button from './components/button/Button'
+
 import fondo1 from "./assets/fortuna/fondo1.png"
 import fondo2 from "./assets/fortuna/fondo2.png"
 import fondo3 from "./assets/fortuna/fondo3.png"
@@ -43,7 +43,6 @@ function App() {
       phrase={phrase.phrase} 
       author={phrase.author}
       />
-      {/*<p>Author: <mark>{phrase.author}</mark></p>*/}
     </div>
   )
 }
